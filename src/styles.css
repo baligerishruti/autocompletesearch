@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.result-container {
+    /* margin-top: 20px; */
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 310px;
+    margin:auto;
+    text-align: left;
+    border-radius: 4px;
+    .result-item {
+        padding: 4px 0;
+        font-size: 14px;
+        &:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+        &.active {
+            background-color: #f0f0f0;
+        }
+    }
+}
